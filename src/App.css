@@ -36,3 +36,94 @@
     transform: rotate(360deg);
   }
 }
+.topContainer{
+  text-decoration: none;
+}
+.specialhrfornavbarbottom{
+  border-bottom: rgb(189, 184, 184);
+  width: 180%;
+  position: absolute;
+  left: -20%;
+  box-shadow: 4px 10px 15px rgba(189, 184, 184,0.5);
+}
+.footerContainer{
+     position: absolute;
+     left: 50%;
+     bottom: 0 !important;
+     transform: translate(-50%);
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+     border-top: 1px solid rgb(189, 184, 184);
+     width: 100vw;
+}
+.footerContainer small{
+    margin: 0;
+}
+
+.HomePageContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.MyNotesContainer{
+  max-height: 70vh;
+  margin-top: 2rem;
+  overflow-y: scroll;
+  overscroll-behavior-y:inherit ;
+}
+
+.accordionContainer{
+  margin-top: 0.5rem
+
+}
+
+.accordionContainerbuttons{
+  float: right;
+} 
+
+.defaulterIteminNavbar{
+  text-decoration: none;
+  margin-top: 0.5rem;
+  color:rgb(133, 128, 128);
+}
+
+.logincontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+.buttonlogincontainer{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.userprofileimg{
+  border-radius: 50%;
+}
+
+.profileContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  flex-direction: column;
+}
+
+.profileContainer h2{
+  display: flex;
+  align-items: center;
+   margin-bottom: 0.5rem;
+}
+.navbarContainer{
+  width:150%;
+  left: -25%;
+  border-bottom: 1px solid rgba(189, 184, 184,0.5);
+  box-shadow: 5px 15px 15px rgba(189, 184, 184,0.5);
+}
